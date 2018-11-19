@@ -7,5 +7,6 @@ class Hash
      array << arg
     end
   end
+  array
  end
 end
