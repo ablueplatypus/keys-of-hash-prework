@@ -1,9 +1,12 @@
 require 'pry'
 class Hash
   def keys_of(*arguments)
+    array = []
   arguments.each do |arg|
-    binding.pry
-    puts arg
+    if arguments == arg
+      array << arg
+    end
   end
+  array
 end
 end
