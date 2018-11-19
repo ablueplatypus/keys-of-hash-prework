@@ -4,10 +4,11 @@ class Hash
     array = []
   arguments.each do |arg|
     if arguments == arg
+      binding.pry
       array << arg
     end
   end
-  binding.pry
+
   array
 end
 end
