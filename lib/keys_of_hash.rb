@@ -7,6 +7,7 @@ class Hash
       array << arg
     end
   end
+  binding.pry
   array
 end
 end
