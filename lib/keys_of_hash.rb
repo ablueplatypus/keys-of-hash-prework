@@ -4,7 +4,6 @@ class Hash
     array = []
   arguments.each do |arg|
    array << arg
-  binding.pry
   end
 end
 end
